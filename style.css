@@ -1,17 +1,17 @@
 :root{
-    --accent:#1bcfcf;
+    --accent:#000000;
     --size:1.25rem;
 }
 
 * {
     font-size:var(--size);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #eeeeee;
+    color: #000000;
     text-decoration: none;
     margin:1%;
     padding:0%;
     border: none;
-    background: #333333;
+    background: #FFFFFF;
 }
 
 body {
