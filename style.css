@@ -30,7 +30,7 @@ button:hover{
 
 footer, footer * {
     text-align: center;
-    font-size:calc(var(--size)/100*85);
+    font-size:calc(var(--size)/100*75);
     color: var(--accent);
     margin-top: 2%;
 }
