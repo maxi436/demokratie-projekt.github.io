@@ -39,6 +39,7 @@ section {
 }
 .start{
     text-align:center;
+    margin:0%;
 }
 hr {
     border: solid 1px var(--accent);
