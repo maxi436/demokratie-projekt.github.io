@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,83 +8,81 @@
     </head>
     <style id="style"></style>
     <body>
-        <nav>
-            <button class="navbutton selected" onclick="show('start', this)">Start</button>
-            <button class="navbutton" onclick="show('steckbrief', this)">Überblick</button>
-            <button class="navbutton" onclick="show('menschenrechte', this)">Menschenrechte</button>
-            <button class="navbutton" onclick="show('frauenrechte', this)">Frauenrechte</button>
-            <button class="navbutton" onclick="show('credits',this)">Credits</button>
-        </nav>
-        <hr>
+        <details>
+            <summary>Seiten</summary>
+            <nav>
+                <button class="navbutton selected" onclick="show('start', this)">Start</button>
+                <button class="navbutton" onclick="show('steckbrief', this)">Steckbrief</button>
+                <button class="navbutton" onclick="show('demokratie', this)">Demokratie</button>
+                <button class="navbutton" onclick="show('menschenrechte', this)">Menschenrechte</button>
+                <button class="navbutton" onclick="show('frauenrechte', this)">Frauenrechte</button>
+                <button class="navbutton" id="credits" onclick="show('credits',this)">Credits</button>
+            </nav>
+            <hr>
+        </details>
+            <section class="start">
+                <h1>Afghanistan</h1>
+                <img src="IMG_2444.PNG"></img>
+            </section>
 
-        <section class="start">
-            <h1>Afghanistan</h1>
-            <img src="IMG_2444.PNG"></img>
-            von Helena, Julian, Maxi, Nenah und Stefan
-        </section>
+            <section class="steckbrief">
+                <h1>Steckbrief</h1>
+                Amtssprache: Paschto, Dari-Persisch<br>
+                Hauptstadt: Kabul<br>
+                Regierungsoberhaupt:
+                <ul>
+                <li>Emirat: Amir al-Mu'minin</li>
+                <li>Taliban: Hibatullah Achundsada</li>
+                </ul>
+                Religion: Islam<br>
+                Fläche: 652.864 Quadratkilometer<br>
+                Einwohner: 42,6 Millionen<br>
+                Währung: Afghani<br>
+                Errichtung: 1747 - Entstehung des Durrani-Reichs<br>
+                Unabhängigkeit: 19. August 1919<br>
+            </section>
 
-        <section class="steckbrief">
-            <h1>Steckbrief</h1>
-            Name: Afghanistan<br>
-            Amtssprache: Paschto, Dari-Persisch<br>
-            Hauptstadt: Kabul<br>
-            Regierungsoberhaupt:
-            <ul>
-            <li>Emirat: Amir al-Mu'minin</li>
-            <li>Taliban: Hibatullah Achundsada</li>
-            </ul>
-            Religion: Islam<br>
-            Fläche: 652.864 Quadratkilometer<br>
-            Einwohner: 42,6 Millionen<br>
-            Währung: Afghani<br>
-            Errichtung: 1747 - Entstehung des Durrani-Reichs<br>
-            Unabhängigkeit: 19. August 1919<br>
-
-            <h1>Demokratie</h1>
-            Afghanistan ist eine Theokratie.
-            Das heißt, dass der Staat und die Religion
-            nicht getrennt werden.
-            Staatsgewalt wird mit der Religion begründet.
-        </section>
-        
-        <section class="menschenrechte">
-            <h1>Menschenrechte</h1>
-            <ul>
-            <li>willkürliche Inhaftierungen von Kitikern, Journalisten und Angestellten der vorherigen Regierung</li>
-            <li>Systhematische Unterdrückung von Protesten</li>
-            <li>kein Zugang zu fairen Gerichtsverfahren</li>
-            <li>Ausgrenzung von ethnischen und religiösen Minderheiten</li>
-            <li>schlechte Wirtschaftliche und humanitäre lage, fehlende Gelder fürs Gesundheitssystem</li>
-            </ul>
-        </section>
-        
-        <section class="frauenrechte">
-            <h1>Frauenrechte</h1>
-            Seit der Machtübernahme der Taliban im Jahre 2021 wurden die Rechte von Frauen in Afghanistan fast vollständig abgeschafft. Sie sind systematisch aus der Öffentlichkeit verdrängt und leben in tiefer Isolation.
-            <ul>
-                <li>Keine Bildung: Schulverbot ab Klasse 7, kompletes Hochschulverbot</li>
-                <li>Keine Arbeit: Berufsverbot im öffentlichen Dienst wal bei Hilfsorganisationen</li>
-                <li>Keine Freiheite Strenge Verschleierungspflicht in der Öffentlichkeit.</li>
-                <li>Keine Mobilität: Reißen nur mit männlicher Begleitung erlaubt.</li>
-                <li>Keine Stimme: Neues Verbot, in der Öffentlichkeit sich zu äußern.</li>
-                <li>Keine Öffentlihkeit Verbot von Parks, Fitnessstudios und Sport.</li>
-            </ul>
-        </section>
-        
-        <section class="credits">
-            <ul>
-                <li>Frauenrechte: Stefan</li>
-                <li>Menschenrechte: Helena</li>
-                <li>Steckbrief: Nenah</li>
-                <li>Taliban: Julian</li>
-                <li>Website: Maxi</li>
-            </ul>
-        </section>
-
-        <hr>
-        <footer>
+            <section class="demokratie">
+                <h1>Demokratie</h1>
+                Afghanistan ist eine Theokratie.
+                Das heißt, dass der Staat und die Religion
+                nicht getrennt werden.
+                Staatsgewalt wird mit der Religion begründet.
+            </section>
             
-        </footer>
+            <section class="menschenrechte">
+                <h1>Menschenrechte</h1>
+                <ul>
+                <li>willkürliche Inhaftierungen von Kitikern, Journalisten und Angestellten der vorherigen Regierung</li>
+                <li>Systhematische Unterdrückung von Protesten</li>
+                <li>kein Zugang zu fairen Gerichtsverfahren</li>
+                <li>Ausgrenzung von ethnischen und religiösen Minderheiten</li>
+                <li>schlechte Wirtschaftliche und humanitäre lage, fehlende Gelder fürs Gesundheitssystem</li>
+                </ul>
+            </section>
+            
+            <section class="frauenrechte">
+                <h1>Frauenrechte</h1>
+                Seit der Machtübernahme der Taliban im Jahre 2021 wurden die Rechte von Frauen in Afghanistan fast vollständig abgeschafft. Sie sind systematisch aus der Öffentlichkeit verdrängt und leben in tiefer Isolation.
+                <ul>
+                    <li>Keine Bildung: Schulverbot ab Klasse 7, kompletes Hochschulverbot</li>
+                    <li>Keine Arbeit: Berufsverbot im öffentlichen Dienst, wie bei Hilfsorganisationen</li>
+                    <li>Keine Freiheit: Strenge Verschleierungspflicht in der Öffentlichkeit</li>
+                    <li>Keine Mobilität: Reisen nur mit männlicher Begleitung erlaubt</li>
+                    <li>Keine Stimme: Neues Verbot, in der Öffentlichkeit sich zu äußern</li>
+                    <li>Keine Öffentlichkeit: Verbot für Parks, Fitnessstudios und Sport</li>
+                </ul>
+            </section>
+            
+            <section class="credits">
+                <ul>
+                    <li>Frauenrechte: Stefan</li>
+                    <li>Menschenrechte: Helena</li>
+                    <li>Steckbrief: Nenah</li>
+                    <li>Taliban: Julian</li>
+                    <li>Website: <a target="_blank" href="https://github.com/maxi436">Maxi</a></li>
+                </ul>
+            </section>
         <script src="script.js"></script>
     </body>
 </html>
